@@ -6,11 +6,10 @@ const Container = styled.div`
     display: flex;
     justify-content: center;
     > input {
-        padding: 10px 10px;
+        padding: 20px 20px;
         width: 35%;
-        font-size: 10px;
+        font-size: 18px;
         border-radius: 10px;
-        font-weight: bold;
         color: grey;
         border: none;
         -webkit-box-shadow: 10px 10px 28px -13px rgba(0,0,0,1);

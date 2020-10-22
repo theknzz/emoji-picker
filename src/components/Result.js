@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 import Emoji from './Emoji'
 
 const Container = styled.div`
-    margin-top: 30px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
 `
@@ -28,7 +28,8 @@ const Result = ({ list }) => {
             );
         }
         return null;
-    });
+    })
+
 
     return (
         <Container>

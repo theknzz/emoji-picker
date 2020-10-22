@@ -1,25 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import styled from '@emotion/styled'
-
 import Result from './components/Result'
 import Header from './components/Header'
 import Search from './components/Search'
 import data from './json/data.json'
 
-
-// const Header = styled.div`
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     margin-bottom: 30px;
-// `
-// const Input = styled.input`
-//     width: 60%;
-//     font-size: 15px;
-//     padding: 10px;
-// `
-
-let counter = 0;
 
 function App() {
     let [search, setSearch] = useState('');
@@ -84,7 +68,7 @@ function App() {
       <>
         <Header />
         <Search onChange={handleChange}/>
-        <Result list={newEmojis.length === 0? emojiData : newEmojis} />
+        <Result list={search === '' ? emojiData : newEmojis} />
 
     </>
     );

@@ -2,15 +2,14 @@ import React, { useEffect, useState} from 'react'
 import styled from "@emotion/styled";
 import Clipboard from "clipboard";
 
-
 const Card = styled.div`
     display: flex;
     cursor: pointer;
     border-radius: 10px;
     flex-direction: column;
     margin: 10px;
-    width: 120px;
-    height: 120px;
+    width: 170px;
+    height: 170px;
     -webkit-box-shadow: 10px 10px 28px -13px rgba(0,0,0,1);
     -moz-box-shadow: 10px 10px 28px -13px rgba(0,0,0,1);
     box-shadow: 10px 10px 28px -13px rgba(0,0,0,1);

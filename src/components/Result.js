@@ -7,6 +7,9 @@ const Container = styled.div`
     margin-top: 100px;
     display: flex;
     justify-content: center;
+    @media (max-width: 768px) {
+        margin-top: 50px;
+    }
 `
 
 const Wrapper = styled.div`

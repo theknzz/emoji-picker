@@ -20,6 +20,11 @@ const Container = styled.div`
         outline: none;
         border: 2px solid #64B6AC;
     }
+    @media (max-width: 768px) {
+        > input {
+            width: 80%;
+        }
+    }
 `
 
 const Search = ({ onChange }) => {

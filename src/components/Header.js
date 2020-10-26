@@ -22,6 +22,13 @@ const Container = styled.div`
     > h1 {
         margin-bottom: 20px;
     }
+    @media (max-width: 768px) {
+        font-size: 25px;
+        > p > img {
+            height: 10px;
+            width: 10px;
+        }
+    }
 `
 
 const Header = () => {

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "61b9ea5ddbc2bb83815e83926a038c18",
+    "revision": "55fddf588910b31041e13c226e95a933",
     "url": "/emoji-picker/index.html"
   },
   {
-    "revision": "331de635ac24572964d8",
+    "revision": "1182c09d46e75a1b443f",
     "url": "/emoji-picker/static/css/main.644724a6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/emoji-picker/static/js/2.6734cc43.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "331de635ac24572964d8",
-    "url": "/emoji-picker/static/js/main.d57f768a.chunk.js"
+    "revision": "1182c09d46e75a1b443f",
+    "url": "/emoji-picker/static/js/main.15edc616.chunk.js"
   },
   {
     "revision": "7b9af224badcfefc48e3",
